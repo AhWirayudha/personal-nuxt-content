@@ -1,4 +1,9 @@
+<script lang="ts" setup>
+  import { SpeedInsights } from "@vercel/speed-insights/nuxt"
+</script>
+
 <template>
+  <SpeedInsights/>
   <div class="max-w-3xl px-4 mx-auto">
     <header class="mt-8 mb-4 flex justify-between content-center">     
       <div class="flex justify-between">
