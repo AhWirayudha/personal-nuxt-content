@@ -5,6 +5,6 @@ draft: false
 page: "bookmark"
 tags: ["mongodb", "javascript"]
 thumbnail: "/img/nut.jpg"
-slug: introduction-mongodb
+slug: mongodb
 ---
 MongoDB is NoSQL.............

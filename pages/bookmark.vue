@@ -2,6 +2,11 @@
 useHead({
   title: "My Own Bookmark History",
 });
+
+const formatDate = (date: any) => {
+  if (!date) return '';
+  return new Date(date).toLocaleDateString('en-US');
+}
 </script>
 
 <template>
@@ -40,10 +45,12 @@ useHead({
                 </blockquote>
                 <figcaption class="font-medium space-y-2">
                   <div class="text-sky-500 dark:text-sky-400">
-                    {{ item.date }}
+                    {{ formatDate(item.date) }}
                   </div>
                   <div class="text-slate-700 dark:text-slate-500">
-                    <UButton>more</UButton>
+                    <ULink :to="item.slug">
+                      <UButton>more</UButton>
+                    </ULink>                 
                   </div>
                 </figcaption>
               </div>              

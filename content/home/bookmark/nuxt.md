@@ -5,6 +5,6 @@ draft: false
 page: "bookmark"
 tags: ["nuxt", "javascript"]
 thumbnail: "/img/nut.jpg"
-slug: introduction-nuxt
+slug: nuxt
 ---
 NUXT is nuts.............
