@@ -1,5 +1,5 @@
 ---
-title: "It's Personal"
+title: "Ah Wirayudha, It's Personal"
 date: 2023-10-05
 draft: false
 page: home
