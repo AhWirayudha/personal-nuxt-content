@@ -26,5 +26,8 @@
       </ULink>     
     </header>
     <NuxtPage />
+    <footer class="mt-8 mb-4 flex justify-end content-center">
+      © 2024 Ah Wirayudha. All rights reserved.
+    </footer>
   </div>
 </template>
