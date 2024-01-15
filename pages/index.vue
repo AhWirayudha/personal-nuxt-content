@@ -8,7 +8,6 @@ useHead({
   <main>
     <ContentDoc :path="`/home/me`" v-slot="{ doc }">
       <article>
-        <h1>{{ doc.title }}</h1>
         <div class="mt-4 content mb-4">
           <ContentRenderer :value="doc" />
         </div>

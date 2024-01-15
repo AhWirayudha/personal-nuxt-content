@@ -5,6 +5,6 @@ draft: false
 page: "bookmark"
 tags: ["bun", "javascript"]
 thumbnail: "/img/bun.jpg"
-slug: introduction-bun
+slug: bun
 ---
 Bun is runtime and replacement for node js.............
